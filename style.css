@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+header{
+    background-color: black;
+    padding: 3%;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col {
+    display: flex;
+    width: 600px;
+    height: 200px;
+}
+
+.col img{
+    width: 50px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    box-shadow: 3px 3px 3px white;
+    transform: rotate(10deg);
+}
+
+.col img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%)
+}
+
+.description{
+    color: white;  
+}
+
+.container{
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-left: 320px;
+    margin-right: 300px;
+    padding: 5px;
+    text-align: center;
+}
